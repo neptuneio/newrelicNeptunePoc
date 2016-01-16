@@ -52,8 +52,9 @@ Step 7 : Install Neptune agent by updating your API_KEY variable and REQUIRE_SUD
 
 Step 8 : Run alerts generation script.
 
-    chmod +x ./newrelicNeptunePoc/generate_alerts.sh
-    ./newrelicNeptunePoc/generate_alerts.sh
+    cd newrelicNeptunePoc
+    chmod +x generate_alerts.sh
+    ./generate_alerts.sh
 
 Step 9 : For alerts to generate in NewRelic, use the following thresholds in your NewRelic alert policies
     Error rate > 0.1% in 5min
