@@ -1,0 +1,25 @@
+{
+  "name": "newrelicNeptunePoc",
+  "version": "0.1.0",
+  "description": "Node app to generate application errors in Newrelic",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "newrelic": "1.24.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neptuneio/newrelicNeptunePoc"
+  },
+  "keywords": [
+    "node",
+    "newrelic"
+  ],
+  "author": "Neptune.io, Inc.",
+  "license": "MIT"
+}
