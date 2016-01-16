@@ -56,12 +56,14 @@ Step 8 : Run alerts generation script.
     chmod +x generate_alerts.sh
     ./generate_alerts.sh
 
-Step 9 : For alerts to generate in NewRelic, use the following thresholds in your NewRelic alert policies
+Step 9 : Use the below thresholds to generate alerts properly in your NewRelic account.
+
+    # If below thresholds dont work properly, look at the graphs in 15-20 min and adjust thresholds appropriately
     Error rate > 0.1% in 5min
     Cpu > 90% in 5min
     Memory > 70% in 5min
     Disk utilization > 50% in 5min
-    # If thresholds dont work properly, look at the graphs in 15-20 min and adjust thresholds appropriately
+
 
 Step 10 : Integrate NewRelic with Neptune and create rules on your alerts
 
