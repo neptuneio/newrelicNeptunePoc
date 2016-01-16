@@ -56,7 +56,7 @@ Step 8 : Run alerts generation script.
     chmod +x generate_alerts.sh
     ./generate_alerts.sh
 
-Step 9 : Use the below thresholds to generate alerts properly in your NewRelic account.
+Step 9 : Use the below thresholds to generate alerts properly in your NewRelic alert policies.
 
     # If below thresholds dont work properly, look at the graphs in 15-20 min and adjust thresholds appropriately
     Error rate > 0.1% in 5min
