@@ -1,13 +1,14 @@
-Test setup to generate server and application alerts in NewRelic using a node app and stress package.
+NewRelic - Neptune POC setup
 ========================
-Alerts will be sent to Neptune and those alerts will be remediated using Neptune agent on the host
+Test setup to generate server and application alerts in NewRelic using a node app and stress package.
+Alerts can then be sent to Neptune and those alerts can be remediated using Neptune agent on the host
 
 What does this setup do
 -----------------------
 1. Installs nodejs and a sample nodejs app with NewRelic integration
 2. Installs newrelic server agent to monitor host level metrics - cpu, memory, diskio etc
 3. Installs Stress package which continuously generates memory, cpu and diskIO load on host to generate server alerts in NewRelic
-4. Installs a shell script that pings nodejs app to generate application errors in NewRelic
+4. Installs a shell script that pings nodejs app to generate application alerts in NewRelic
 5. Installs Neptune agent on the host to remediate alerts
 
 Requirements
